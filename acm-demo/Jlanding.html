@@ -1,0 +1,459 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>BUCT中国大学生计算机设计大赛简介</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+            /* * {
+                padding: 0px;
+                margin: 0px;
+                list-style: none;
+                bottom: 0;
+                text-decoration: none;
+            } */
+            /* body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: rgb(170, 190, 250);
+            } */
+            .cshell {
+                width: 600px;
+                height: 400px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 5px;
+                border: 10px #fff solid;
+                box-shadow: 20px 30px 20px rgba(0, 0, 0, 0.5);
+				margin-left: auto;
+				margin-right: 0;
+            }
+    
+            .cimages {
+                width: 300%;
+                height: 100%;
+                display: flex;
+                position: absolute;
+                /* left: 0; */
+				right:0;
+                transition: .2s;
+            }
+    
+            .cimg{
+                width: 100%;
+                background-size: cover;
+            }
+            .cimg:nth-child(1){
+                background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wySu?ver=45bc");
+            }
+            .cimg:nth-child(2){
+                background-image: url("https://ts2.cn.mm.bing.net/th?id=ORMS.af32474acf9da47d0ad1447dfb938801&pid=Wdp&w=300&h=156&qlt=90&c=1&rs=1&dpr=1.6500000953674316&p=0");
+            }
+            .cimg:nth-child(3){
+                background-image: url("https://ts2.cn.mm.bing.net/th?id=ORMS.7f0c42b7db8309ba925bbf17eae33906&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1.6500000953674316&p=0");
+            }
+    
+            .cmin-images {
+                display: flex;
+                justify-content: space-evenly;
+                position: absolute;
+                bottom: 20px;
+                width: 40%;
+                z-index: 999;
+                right: 10%;
+            }
+    
+            .cmin{
+                width: 60px;
+                height: 60px;
+                cursor: pointer;
+                border-radius: 50%;
+                background-size: cover;
+                border: solid rgba(255, 255, 255, 0.5) 5px;
+                background-position: -20px 0;
+            }
+            .cmin:nth-child(1){
+                background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wySu?ver=45bc");
+            }
+            .cmin:nth-child(2){
+                background-image: url("https://ts2.cn.mm.bing.net/th?id=ORMS.af32474acf9da47d0ad1447dfb938801&pid=Wdp&w=300&h=156&qlt=90&c=1&rs=1&dpr=1.6500000953674316&p=0");
+            }
+            .cmin:nth-child(3){
+                background-image: url("https://ts2.cn.mm.bing.net/th?id=ORMS.7f0c42b7db8309ba925bbf17eae33906&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1.6500000953674316&p=0");
+            }
+    
+            .cslidebutton {
+                width: 100%;
+                height: 100%;
+                position:absolute;
+                display: flex;
+                justify-content: space-between;
+                user-select:none;
+            }
+    
+            .cslidebutton-left,
+            .cslidebutton-right {
+                font-size: 50px;
+                background-color: rgba(160, 193, 255, 0.7);
+                padding: 0 20px;
+                cursor: pointer;
+                line-height: 500px;
+            }
+    
+        </style> 
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<div id="header" class="cheader-child1">
+				<header class="alt">
+					<a href="index.html" class="logo"><strong>BUCT</strong> <span>学科竞赛信息管理平台</span></a>
+					<!-- <a href="#" class="logo"> <span>ICPC</span></a> -->
+					
+					<button class="cbutton">登录</button>
+
+					<!-- <button class="cbutton">Click Me</button> -->
+
+					<!-- <nav>
+						<a href="#menu">菜单导航链接标签</a>
+					</nav>  -->
+				</header>
+			</div>
+
+			<div id="header" class="cheader-child2">
+				<header class="alt">
+					<ul>
+						<li style="display: inline-block;"><a href="#" class="logo"> <span>ICPC</span></a> </li>
+						<li style="display: inline-block;"><a href="#" class="logo"> <span>百度之星</span></a></li>
+						<li style="display: inline-block;"><a href="#" class="logo"> <span>团体程序设计天梯赛</span></a></li>
+						<li style="display: inline-block;"><a href="#" class="logo"> <span>全国大学生电子设计大赛</span></a></li>
+						<li style="display: inline-block;"><a href="#" class="logo"> <span>中国大学生计算机设计大赛</span></a></li>
+						<li style="display: inline-block;"><a href="#" class="logo"> <span>西门子大赛</span></a></li>
+					</ul>
+					<!-- <a href="#" class="logo"> <span>ICPC</span></a>
+					<a href="#" class="logo"> <span>百度之星</span></a>
+					<a href="#" class="logo"> <span>团体程序设计天梯赛</span></a>
+					<a href="#" class="logo"> <span>全国大学生电子设计大赛</span></a>
+					<a href="#" class="logo"> <span>中国大学生计算机设计大赛</span></a>
+					<a href="#" class="logo"> <span>西门子大赛</span></a> -->
+					
+				
+					<!-- <nav>
+						<a href="#menu">菜单导航链接标签</a>
+					</nav> --> 
+				</header>
+			</div>
+
+			<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="landing.html">Landing</a></li>
+						<li><a href="generic.html">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+					<ul class="actions stacked">
+						<li><a href="#" class="button primary fit">Get Started</a></li>
+						<li><a href="https://codenews.cc/chatgpt" class="button fit">登录</a></li>
+					</ul>
+				</nav>
+
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>中国大学生计算机设计大赛</h1>
+							</header>
+							<!-- <div class="content">
+								<p>Lorem ipsum dolor sit amet nullam consequat<br />
+								sed veroeros. tempus adipiscing nulla.</p>
+							</div> -->
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>竞赛简介</h2>
+									</header>
+									<p>中国大学生计算机设计大赛（Chinese Collegiate Computing Competition，简称4C）是我国高校面向本科生最早的赛事之一，自2008年开赛，由教育部高校与计算机相关的教指委等独立或联合主办，现在是全国普通高校学科竞赛排行榜的榜单赛事之一。大赛的目的是以赛促学、以赛促教、以赛促创，为国家培养德智体美劳全面发展的创新型、复合型、应用型人才服务。
+										该项赛事由各区域赛和全国总决赛两个主要阶段组成，包括软件应用与开发、微课与教学辅助、物联网应用、大数据应用、人工智能应用、信息可视化设计、数媒静态设计、数媒动漫与短片、数媒游戏与交互设计、计算机音乐创作、国际生“学汉语，写汉字”等十余个赛道。我校于2021年开始参加该项赛事，取得了优异成绩。</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="#" class="image">
+										<img src="D:\vsrealm\html5up-forty\resource\J1.png" alt="" data-position="center center" style="width: 70%; height: 70%; margin-left: 130px;margin-top: 65px;"/>
+									</a>
+									<div class="content">
+										
+										<div class="inner">
+											<header class="major">
+												<h3>比赛时间及安排</h3>
+											</header>
+											<div class="section">
+												<table>
+													<tr>
+														<th>阶段</th>
+														<th>时间</th>
+													</tr>
+													<tr>
+														<td>区域赛</td>
+														<td>3~5月</td>
+													</tr>
+													<tr>
+														<td>全国总决赛</td>
+														<td>6~8月</td>
+													</tr>
+												</table>
+											</div>
+								            <div class="section">
+												<h3>指导老师团队</h3>
+												<p>
+													王友清，高敬阳，卢罡，郭旦怀，耿志强，韩永明，万静，郭俊霞，尚颖，李睿琪，谷伟伟</p>
+											</div>
+											<!-- <img src="D:\vsrealm\html5up-forty\resource\J1.png" alt=""/>'' -->
+											
+											<ul class="actions">
+												<li><a href="https://www.jsjds.com.cn" class="button">大赛官网</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<span class="cshell" alt="" >
+										<ui class="cimages">
+											<li class="cimg"></li>
+											<li class="cimg"></li>
+											<li class="cimg"></li>
+										</ui>
+										<ui class="cmin-images">
+											<li class="cmin"></li>
+											<li class="cmin"></li>
+											<li class="cmin"></li>
+										</ui>
+										<div class="cslidebutton">
+											<div class="cslidebutton-left">&lt</div>
+											<div class="cslidebutton-right">&gt</div>
+										</div>
+									</span> 
+									<div class="content" >
+										
+										<div class="inner">
+											<header class="major">
+												<h3>取得成果</h3>
+											</header>
+											<p>近年来，我校在该项赛事中共获得国家级二等奖4项、三等奖4项，北京市赛一等奖4项、二等奖5项、三等奖17项。</p>
+										
+										</div>
+									</div>
+									
+									<!-- <div>
+										<a href="#" class="image">
+											<img src="images/pic09.jpg" alt="" data-position="top center"  style="width: 70%; height: 70%; margin-right: 130px;margin-top: 65px;"/>
+										</a>
+									</div> -->
+									
+								</section>
+								<!-- <section>
+									<a href="generic.html" class="image">
+										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Sed nunc ligula</h3>
+											</header>
+											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+						-->
+						<!-- Three -->
+						<!--	<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>Massa libero</h2>
+									</header>
+									<p>周晓琳大头菜</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button next">Get Started</a></li>
+									</ul>
+								</div>
+							</section> -->
+
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				let left = document.querySelector(".cslidebutton-left")
+				let right = document.querySelector(".cslidebutton-right")
+				let min = document.querySelectorAll(".cmin")
+				let images = document.querySelector(".cimages")
+				// 我们先设置一个index用来计算和控制图片的位置，再设置一个time作为定时器
+				let index = 0
+				let time
+				// 在这里我们先创建一个position为复用函数，作用就是结合index来定义当前图片的位置的
+				function position() {
+					images.style.left = (index * -100) + "%"
+				}
+				// 然后我们创建一个复用函数add为加函数，如果当前图片的位置值index大于等于当前图片数量的话，就说明超出了计算范围，所以得清零，如若不然index就加一
+				function add() {
+					if (index >= min.length-1) {
+						index = 0
+					} else {
+						index++
+					}
+				}
+				// 反之desc为减函数，如果当前图片的位置值index小于1了，那么他的值就反弹到最顶端，也就是轮播图的最后面，如若不然index就减一
+				function desc() {
+					if (index < 1) {
+						index = min.length-1
+					} else {
+						index--
+					}
+				}
+				// 创建一个timer来当做复用时间的函数，，每隔3秒钟index就加一，然后加入增加add函数和desc函数来判断一下，再加入定位函数
+				function timer(){
+					time = setInterval(() => {
+						index++
+						desc()
+						add()
+						position()
+					}, 3000)
+				}
+				// 接下来我们设置一下按钮，left为左边的按钮，因为点击时图片会反方向倒退，所以我们套入desc减函数进去，顺便定位一下
+				// 当然，点击的时候我们必须先把定时器给停掉再重新执行一遍，不然会在你点击下一张图片时，定时器倒计时一到也跟着生效，这样子就会连跳两张图片了
+				left.addEventListener("click", () => {
+					desc()
+					position()
+					clearInterval(time)
+					timer()
+				})
+				// 右边的按钮和左边也是差不多
+				right.addEventListener("click", () => {
+					add()
+					position()
+					clearInterval(time)
+					timer()
+				})
+				// 在弄好左右两个按钮的时候，我们还需要生效下面的小图片按钮，
+				// 首先我们先遍历一遍，然后获取当前点击的那个小图片按钮的值并赋值给index，这样子就可以随之跳转
+				for (let i = 0; i < min.length; i++) {
+					min[i].addEventListener("click", () => {
+						index = i
+						position()
+						clearInterval(time)
+						timer()
+					})
+				}
+				// 最后的最后我们将定时器开起来，这样子图片就可以自动轮播啦，如果还不明白多练几遍就会了，将其理解进去，吸取精华所在，反复咀嚼，加油，感谢你的观看，我们下期再见
+				timer()
+			</script>
+	</body>
+</html>
